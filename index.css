@@ -1,0 +1,53 @@
+html , body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    background-image: url(snake.jpg);
+    background-size: repeat;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.square{
+    width: 30px;
+    height: 30px;
+}
+
+.snake{
+    background-color: red;
+    border-radius: 50px;
+}
+
+#start{
+    padding: 10px;
+    font-weight: bold;
+    background-color: aqua;
+    border: none;
+}
+
+.apple{
+    background-color: blue;
+}
+
+.score-btn{
+    padding: 9px 10px;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+}
